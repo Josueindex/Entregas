@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Game of Trhones";
+    src: url(../css/Game\ of\ Thrones.ttf);
+}
+
+
+
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+h1 {
+    color: blanchedalmond;
+}
+
+
+.header{
+    background-color: rgba(9, 10, 10, 0);
+    height: 250px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.nav{
+display:flex;
+justify-content: space-between;
+/* max-width: 992px;
+margin: 0 auto; */
+}
+
+.nav-link{
+    color: ghostwhite;
+    text-decoration: none;
+  
+
+}
+
+.logo{
+    letter-spacing: 2px;
+    padding-left: 20px;
+   font-size: 50px;
+    font-family:"Game of Trhones";
+   padding-top: 20px;
+    line-height: 100px;
+}
+
+.logo:hover{
+    font-size: 55px;
+    transition: 0.5s;
+    color:goldenrod;
+    transition: 0,5s;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+
+}
+
+.nav-menu-item{
+    font-size: 13px;
+    margin: 15px 25px;
+    line-height: 100px;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+
+.nav-menu-link{
+    margin: 0px;
+    padding:0px 0px;
+    border-radius: 5px;
+}
+
+.nav-menu-link:hover{
+    font-size: 15px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: goldenrod;
+    transition: 0.5s;
+
+}
+
+.nav-toggle{
+    background-color:transparent;
+    border-color: transparent;
+    padding: 0 0px;
+    line-height: 60px;
+    display: none;
+    
+}
+
+@media (max-width:768px){
+
+    body{
+        background-image:url(../img/humo\ y\ fuego_smarthphone.gif);
+    }
+
+    .header{
+        background-color: rgba(9, 10, 10, 0);
+        height: 110px;
+        position: fixed;
+        width: 100%;
+        top:0;
+        left:0;
+    }
+    
+
+    .logo{
+       padding-left: 50px;
+        letter-spacing: 2px;
+        font-size: 20px;
+        justify-content: center;
+      
+    }
+
+    .logo:hover{
+        font-size: 22px;
+        transition: 0.5s;
+        color:goldenrod;
+        transition: 0,5s;
+    }
+       
+
+    .nav-menu{
+       flex-direction: column;
+       align-items: center;
+       background-color: rgba(84, 81, 81, 0.042);
+       position: fixed;
+       left: 0;
+       top: 110px;
+       width: 100%;
+       padding: 20px 0;
+       height: calc(100% - 110px);
+       overflow-y:auto ;
+    
+    }
+    
+    .nav-menu-item{
+        font-size: 12px;
+        margin: 0 5px;
+        line-height: 50px;
+        text-transform: uppercase;
+        width: max-content;
+    
+    }
+    
+    .nav-menu-link{
+        padding:8px 8px;
+        border-radius: 5px;
+    }
+    
+    .nav-menu-link:hover{
+    background-color:none;
+    color:floralwhite;
+    font-size: 15px;
+    
+    }
+    
+
+}

@@ -1,0 +1,119 @@
+body{
+    /* background-image: url(../img/fondo\ desktop.gif); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand:hover{
+ 
+  
+    justify-content: center;
+    background-color: rgba(84, 81, 81, 0.494);
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+.nav-item{
+    text-align: center;
+    padding: 20px;
+    
+
+ 
+}
+
+
+
+.dropdown-menu.show{
+    background-color: transparent;
+    border:transparent;
+}
+.dropdown-item{
+    color: blanchedalmond;
+    background-color: transparent;
+    
+    
+}
+.dropdown-item:hover{
+    font-size: 20px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: goldenrod;
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+
+
+.nav-item:hover{
+    font-size: 20px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: rgb(255, 184, 5);
+    transition: 0.5s;
+    border-radius: 30px;
+   
+
+}
+h1{
+    color: white;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    margin:0px;
+}
+
+.row{
+    border: 1px solid white;
+
+    background-color: rgba(24, 23, 23, 0.378);
+    border-radius: 30px;
+}
+.borde__column1{
+
+    margin: 0px;
+  
+ 
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    border: 1px solid white;
+ 
+   
+}
+.borde__column2{
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    border: 1px solid white;
+}
+.img_personaje{
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    body{
+        /* background-image: url(../img//fondo\ movil.gif); */
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        
+    }
+
+    .container{
+        padding-top: 50px;
+    }
+       }
+
+    

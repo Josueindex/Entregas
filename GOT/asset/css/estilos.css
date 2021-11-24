@@ -1,0 +1,77 @@
+body{
+    /* background-image: url(../img/fondo\ desktop.gif); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.navbar-brand{
+
+}
+
+.navbar-brand:hover{
+ 
+  
+    justify-content: center;
+    background-color: rgba(84, 81, 81, 0.494);
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+.nav-item{
+    text-align: center;
+    padding: 20px;
+    
+
+ 
+}
+
+
+
+.dropdown-menu.show{
+    background-color: transparent;
+    border:transparent;
+}
+.dropdown-item{
+    color: blanchedalmond;
+    background-color: transparent;
+    
+    
+}
+.dropdown-item:hover{
+    font-size: 20px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: goldenrod;
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+
+
+.nav-item:hover{
+    font-size: 20px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: rgb(255, 184, 5);
+    transition: 0.5s;
+    border-radius: 30px;
+   
+
+}
+
+
+
+
+@media (max-width:780px){
+    
+    body{
+
+       /* background-image: url(../img/fondo\ movil.gif); */
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: auto;
+    }
+    
+}
