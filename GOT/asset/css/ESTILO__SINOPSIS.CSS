@@ -1,86 +1,106 @@
-body{
-    /* background-image: url(../img/fondo\ desktop.gif); */
+@font-face {
+    font-family: "Game of Trhones";
+    src: url(../css/Game\ of\ Thrones.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Playball&display=swap');
+
+
+
+
+body {
+    background-image: url(../img/fondeo\ desktop_nieve\ 3.gif);
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.navbar-brand:hover{
- 
-  
-    justify-content: center;
-    background-color: rgba(84, 81, 81, 0.494);
-    transition: 0.5s;
-    border-radius: 30px;
+.logo_ {
+
+    padding-left: 30px;
+    padding-top: 20px;
 
 }
-.nav-item{
+
+.nav-item:hover {
+    font-size: 20px;
+    background-color: rgba(16, 15, 15, 0.755);
+    /* color: rgb(255, 184, 5); */
+    transition: 0.5s;
+    /* border-radius: 30px; */
+
+
+}
+
+.nav-item {
+    color: white;
     text-align: center;
     padding: 20px;
-    
+    font-family: 'Zen Old Mincho', serif;
 
- 
+
+
+
 }
 
 
+.navbar-brand:hover {
 
-.dropdown-menu.show{
-    background-color: transparent;
-    border:transparent;
-}
-.dropdown-item{
-    color: blanchedalmond;
-    background-color: transparent;
-    
-    
-}
-.dropdown-item:hover{
-    font-size: 20px;
-    background-color: rgba(84, 81, 81, 0.494);
-    color: goldenrod;
+    background-size: 100%;
+    align-items: center;
     transition: 0.5s;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 
 }
 
 
-.nav-item:hover{
-    font-size: 20px;
-    background-color: rgba(84, 81, 81, 0.494);
-    color: rgb(255, 184, 5);
-    transition: 0.5s;
-    border-radius: 30px;
-   
 
-}
-h1{
+
+h1 {
+
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: "Game of Trhones";
+    font-size: 29px;
     color: white;
-    padding-left: 35px;
+    padding-top: 40px;
+    padding-left: 0px;
     padding-bottom: 30px;
+    margin: 0px;
 }
 
-.row{
-    background-color: rgba(24, 23, 23, 0.885);
+.row {
+    background-color: rgba(0, 0, 0, 0.487);
+    /* border-radius: 30px; */
 }
-.borde__column1{
+
+.borde__column1 {
     padding-top: 30px;
-    
+
     padding-left: 50px;
     padding-right: 30px;
-    color: white;
-    border: 1px solid white;
-   
-    
-   
+    color: rgba(245, 243, 220, 0.837);
+    /* border: 1px solid white; */
+
+
+
 }
 
-.borde__column2{
+.borde__column2 {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 30px;
-    color: white;
-    border: 1px solid white;
+    color: rgba(245, 243, 220, 0.837);
+    /* border: 1px solid white; */
 
+}
+p{
+    font-family: 'Adamina', serif;
+}
+
+p:first-child:first-letter{
+    font-size: 40px;
 }
 
 
@@ -95,19 +115,17 @@ h1{
 
 
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    body{
-        /* background-image: url(../img//fondo\ movil.gif); */
-        background-color: black;
+    body {
+        background-image: url(../img/fondo\ movile\ 2.gif) ;
+        /* background-color: black; */
         background-repeat: no-repeat;
-        /* background-size: cover; */
-        
+        background-size: cover;
+
     }
 
-    .container{
+    .container {
         padding-top: 50px;
     }
-       }
-
-    
+}

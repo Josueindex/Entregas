@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Game of Trhones";
+    src: url(../css/Game\ of\ Thrones.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+
+body {
+    background-image: url(../img/fondeo\ desktop_nieve\ 3.gif);
+    background-position-x: left;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_ {
+
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+
+
+
+.navbar-brand:hover {
+
+    transition: 0.5s;
+    /* border-radius: 30px; */
+
+}
+
+.navbar {
+    background-color: black;
+}
+
+
+.nav-item {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Zen Old Mincho', serif;
+
+
+
+
+}
+
+
+
+/* .dropdown-menu.show{
+    background-color: transparent;
+    border:transparent;
+}
+.dropdown-item{
+    color: blanchedalmond;
+    background-color: transparent;
+    
+    
+}
+.dropdown-item:hover{
+    font-size: 20px;
+    background-color: rgba(84, 81, 81, 0.494);
+    color: goldenrod;
+    transition: 0.5s;
+    border-radius: 30px;
+
+} */
+
+
+.nav-item:hover {
+    font-size: 20px;
+    background-color: rgba(16, 15, 15, 0.755);
+    /* color: rgb(255, 184, 5); */
+    transition: 0.5s;
+    /* border-radius: 30px; */
+
+
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Game of Trhones";
+    font-size: 29px;
+    color: white;
+    padding-top: 40px;
+    /* padding-left: 410px; */
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.row {
+    /* border: 1px solid white; */
+
+    /* background-color: rgba(24, 23, 23, 0.378); */
+    /* border-radius: 30px; */
+}
+
+
+
+
+
+.borde__column1 {
+
+
+    margin: 0px;
+
+
+    padding-left: 0px;
+    padding-right: 30px;
+    color: white;
+   
+    /* border: 1px solid white; */
+
+
+}
+
+
+
+.borde__column2 {
+    background-color: rgba(0, 0, 0, 0.487);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+    color: rgba(245, 243, 220, 0.837);
+    border-radius: 4px;
+
+    /* border: 1px solid white; */
+}
+
+.img_personaje {
+    filter: grayscale(50%);
+    width: 100%;
+    height: auto;
+}
+
+.img_personaje:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+    /* border-radius: 30px; */
+
+}
+
+h2 {
+    font-size: 24px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Old Mincho', serif;
+
+}
+
+.contenedor_carrusel{
+    padding-top: 40px;
+    
+}
+
+.carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.487);
+    border: transparent;
+
+}
+
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.487);
+    border: transparent;
+
+}
+
+.carousel-control-next-icon{
+   
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    body {
+
+        background-image: url(../img/fondo\ movile\ 2.gif) ;
+        background-size: cover;
+        
+        
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+    h1 {
+        text-align: center;
+        letter-spacing: 5px;
+        font-family: "Game of Trhones";
+        font-size: 29px;
+        color: white;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        margin: 0px;
+    }
+    
+    p{
+        text-align: right;
+    }
+    p{
+        font-family: 'Adamina', serif;
+    }
+    
+    p:first-child:first-letter{
+        font-size: 40px;
+    }
+    
+    
+    
+
+    .borde__column1{
+        padding-left: 30px;
+    }
+
+
+
+    .container {
+        padding-top: 50px;
+    }
+}
+
+

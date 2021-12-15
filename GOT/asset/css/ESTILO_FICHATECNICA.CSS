@@ -1,72 +1,80 @@
 @font-face {
     font-family: "Game of Trhones";
     src: url(../css/Game\ of\ Thrones.ttf);
-}
+    @font-face {
+        font-family: "Game of Trhones";
+        src: url(../css/Game\ of\ Thrones.ttf);
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Playball&display=swap');
 
 
 
 
-*{
-    margin:0;
+
+* {
+    margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     background-color: black;
 }
+
 h1 {
     color: blanchedalmond;
 }
 
 
-.header{
+.header {
     background-color: rgba(9, 10, 10, 0);
     height: 250px;
     position: fixed;
     width: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
-.nav{
-display:flex;
-justify-content: space-between;
-/* max-width: 992px;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 992px;
 margin: 0 auto; */
 }
 
-.nav-link{
+.nav-link {
     color: ghostwhite;
     text-decoration: none;
-  
+
 
 }
 
-.logo{
+.logo {
     letter-spacing: 2px;
     padding-left: 20px;
-   font-size: 50px;
-    font-family:"Game of Trhones";
-   padding-top: 20px;
+    font-size: 50px;
+    font-family: "Game of Trhones";
+    padding-top: 20px;
     line-height: 100px;
 }
 
-.logo:hover{
+.logo:hover {
     font-size: 55px;
     transition: 0.5s;
-    color:goldenrod;
-    transition: 0,5s;
+    color: goldenrod;
+    transition: 0, 5s;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     margin-right: 60px;
     list-style: none;
 
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-size: 13px;
     margin: 15px 25px;
     line-height: 100px;
@@ -75,13 +83,13 @@ margin: 0 auto; */
 
 }
 
-.nav-menu-link{
+.nav-menu-link {
     margin: 0px;
-    padding:0px 0px;
+    padding: 0px 0px;
     border-radius: 5px;
 }
 
-.nav-menu-link:hover{
+.nav-menu-link:hover {
     font-size: 15px;
     background-color: rgba(84, 81, 81, 0.494);
     color: goldenrod;
@@ -89,81 +97,81 @@ margin: 0 auto; */
 
 }
 
-.nav-toggle{
-    background-color:transparent;
+.nav-toggle {
+    background-color: transparent;
     border-color: transparent;
     padding: 0 0px;
     line-height: 60px;
     display: none;
-    
+
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    body{
-        background-image:url(../img/humo\ y\ fuego_smarthphone.gif);
+    body {
+        background-image: url(../img/humo\ y\ fuego_smarthphone.gif);
     }
 
-    .header{
+    .header {
         background-color: rgba(9, 10, 10, 0);
         height: 110px;
         position: fixed;
         width: 100%;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
     }
-    
 
-    .logo{
-       padding-left: 50px;
+
+    .logo {
+        padding-left: 50px;
         letter-spacing: 2px;
         font-size: 20px;
         justify-content: center;
-      
+
     }
 
-    .logo:hover{
+    .logo:hover {
         font-size: 22px;
         transition: 0.5s;
-        color:goldenrod;
-        transition: 0,5s;
+        color: goldenrod;
+        transition: 0, 5s;
     }
-       
 
-    .nav-menu{
-       flex-direction: column;
-       align-items: center;
-       background-color: rgba(84, 81, 81, 0.042);
-       position: fixed;
-       left: 0;
-       top: 110px;
-       width: 100%;
-       padding: 20px 0;
-       height: calc(100% - 110px);
-       overflow-y:auto ;
-    
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(84, 81, 81, 0.042);
+        position: fixed;
+        left: 0;
+        top: 110px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 110px);
+        overflow-y: auto;
+
     }
-    
-    .nav-menu-item{
+
+    .nav-menu-item {
         font-size: 12px;
         margin: 0 5px;
         line-height: 50px;
         text-transform: uppercase;
         width: max-content;
-    
+
     }
-    
-    .nav-menu-link{
-        padding:8px 8px;
+
+    .nav-menu-link {
+        padding: 8px 8px;
         border-radius: 5px;
     }
-    
-    .nav-menu-link:hover{
-    background-color:none;
-    color:floralwhite;
-    font-size: 15px;
-    
+
+    .nav-menu-link:hover {
+        background-color: none;
+        color: floralwhite;
+        font-size: 15px;
+
     }
-    
+
 
 }
